@@ -1,0 +1,287 @@
+*{
+ padding: 0;
+ margin: 0;
+}
+body{
+    background-color: lightgrey;
+    width: 100%;
+    height: 1000px;
+}
+.header
+{
+    background-image: url("5590457.jpg");
+    background-size: 100%;
+    width: 100%;
+    height: 800px;
+}
+.header .naming{
+    width: 100%;
+    height: 100px;
+    box-shadow: 0 0 7px bisque;
+}
+.naming h1{
+    font-size: 4rem;
+    color: bisque;
+    text-align: center;
+    text-shadow: 4px 4px rgb(248, 185, 107);
+}
+.header .intro{
+    width: 100%;
+    height: 190px;
+    box-shadow: 0 0 7px  bisque;
+}
+.intro #intro_head{
+    font-size: 2.5rem;
+    color: burlywood;
+    position: relative;
+    left: 10px;
+}
+.intro #intro_text{
+    font-size: 1.4rem;
+    color: bisque;
+    position: relative;
+    left: 10px;
+}
+.about{
+    width: 48%;
+    height: 500px;
+    box-shadow: 0 0 7px bisque;
+}
+.about #about1{
+    font-size: 2.5rem;
+    color: burlywood;
+    position: relative;
+    left: 10px;
+    display: block;
+}
+.about p{ font-size: 2.5rem;
+    font-size: 1.4rem;
+    color: bisque;
+    position: relative;
+    left: 10px;
+}
+.aboutimg{
+    width: 40%;
+    height: 450px;
+    box-shadow:0 0 7px bisque;
+    border-radius: 100px;
+    background-color: bisque;
+    float: right;
+    position: relative;
+    bottom: 470px;
+    right: 80px;
+}
+.aboutimg img{
+    width: 96%;
+    height: 450px;
+    float: right;
+    border-radius: 100px;
+}
+.div1{
+    width: 100%;
+    height: 960px;
+    background-image: url("6150433.jpg");
+    background-size: cover;
+}
+.skills_sec{
+    width: 100%;
+    height: 380px;
+    box-shadow:0 0 7px bisque;
+}
+.skills_sec #skills{
+    font-size: 2.0rem;
+    color: burlywood;
+    position: relative;
+    left: 10px;
+    display: block;
+}
+.skills_sec #skill_set{
+    font-size: 2.5rem;
+    font-size: 1.4rem;
+    color: bisque;
+    position: relative;
+    left: 10px;
+}
+#i1{
+width: 100px;
+height: 100px;
+position: relative;
+left: 20px;
+top: 10px;
+
+}
+#i2{
+    width: 150px;
+    height: 100px;
+    position: relative;
+    left: 60px;
+    top: 10px;
+}
+#i3{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 100px;
+    top: 10px;
+}
+.div1 .projects {
+    width: 100%;
+    height: 570px;
+    box-shadow:0 0 7px bisque;
+}
+.div1 .projects #proj{
+    font-size: 2.0rem;
+    color: burlywood;
+    position: relative;
+    left: 10px;
+    display: block;
+}
+.projects #proj1{
+    font-size: 2.5rem;
+    font-size: 1.4rem;
+    color: bisque;
+    position: relative;
+    left: 10px;
+}
+#proj1 img{
+    width: 500px;
+    height: 200px;
+    position: relative;
+    left: 20px;
+    bottom: 20px;
+}
+.projects #proj2{
+    font-size: 2.5rem;
+    font-size: 1.4rem;
+    color: bisque;
+    position: relative;
+    left: 10px;
+}
+#proj2 img{
+    width: 500px;
+    height: 200px;
+    position: relative;
+    left: 20px;
+    bottom: 20px;
+}
+.projects #proj3{
+    font-size: 2.5rem;
+    font-size: 1.4rem;
+    color: bisque;
+    position: relative;
+    left: 570px;
+    bottom: 520px;
+}
+#proj3 img{
+    width: 500px;
+    height: 200px;
+    position: relative;
+    left: 20px;
+    bottom: 20px;
+}
+.div2{
+    background-image: url("6150433.jpg");
+    width: 100%;
+    height: 180px;
+    box-shadow: 0 0 7px bisque;
+   
+}
+.div2 #res{
+    font-size: 2.5rem;
+    color: burlywood;
+    position: relative;
+    left: 10px;
+    display: block;
+}
+.div2 #res1{
+    font-size: 2.5rem;
+    font-size: 1.4rem;
+    color: bisque;
+    position: relative;
+    left: 10px;
+}
+.div2 #resume{
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: lightgrey;
+    position: relative;
+    left: 580px;
+    top: 20px;
+    box-shadow: 0 0 10px rgb(255, 204, 0);
+}
+footer{
+    width: 100%;
+    height: 150px;
+    background-image: url(5590457.jpg);
+    box-shadow: 0 0 17px bisque;;
+}
+footer #copy{
+    font-size: 1.1rem;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 120px;
+}
+footer #b1{
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: rgb(222, 106, 106);
+    position: relative;
+    left: 30px;
+    top: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+footer #b2{
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: rgb(222, 106, 106);
+    position: relative;
+   left: 50px;
+   top: 30px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+footer #b3{
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: rgb(222, 106, 106);
+    position: relative;
+   left: 70px;
+   top: 30px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+footer #Follow{
+    font-size: 1.3rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    float: right;
+    position: relative;
+    right: 20px;
+    color: white;
+}
+footer #linkedin{
+    font-size: 2rem;
+    color: blue;
+    float: right;
+    position: relative;
+  top: 35px;
+  left: 10px;
+  background-color: white;
+}
+footer #facebook{
+    font-size: 2rem;
+    color: blue;
+    float: right;
+    position: relative;
+  top: 35px;
+  left: 80px;
+  background-color: white;
+}
+footer #youtube{
+    font-size: 2rem;
+    color: red;
+    float: right;
+    position: relative;
+  top: 35px;
+  left: 150px;
+  background-color: white;
+}
