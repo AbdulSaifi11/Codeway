@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <link rel="stylesheet" href="dashb.css">
+    <link rel="stylesheet" href="menu.css">
+</head>
+<body>
+    <div class="page">
+    <div class="side">
+        <a href="#"><i class="ri-layout-2-fill"></i>Dashboard</a><br>
+        <a href="#"><i class="ri-wallet-3-fill"></i>Payment Info</a><br>
+        <a href="#"><i class="ri-pencil-fill"></i>Registration</a><br>
+        <a href="#"><i class="ri-book-open-fill"></i>Courses</a><br>
+        <a href="#"><i class="ri-equal-fill"></i>Result</a><br>
+        <a href="#"><i class="ri-notification-fill"></i>Notice</a><br>
+        <a href="#"><i class="ri-calendar-todo-fill"></i>Schedule</a><br>
+        <a id="Log" href="#"><i class="ri-logout-box-r-fill"></i>Log Out</a>
+            <div class="menu">
+              <button class="menu-btn"><i class="ri-menu-line"></i></button>
+              <div class="options">
+                <a href="#">Dashboard</a>
+                <a href="#">Payment Info</a>
+                <a href="#">Registration</a>
+                <a href="#">Course</a>
+                <a href="#">Result</a>
+                <a href="#">Notice</a>
+                <a href="#">Schedule</a>
+                <a href="#">Log out</a>
+              </div>
+            
+          
+            <script>
+              document.addEventListener('DOMContentLoaded', function () {
+                var menuBtn = document.querySelector('.menu-btn');
+                var options = document.querySelector('.options');
+          
+                menuBtn.addEventListener('click', function () {
+                  options.style.display = options.style.display === 'block' ? 'none' : 'block';
+                });
+          
+                document.addEventListener('click', function (event) {
+                  if (!menuBtn.contains(event.target) && !options.contains(event.target)) {
+                    options.style.display = 'none';
+                  }
+                });
+              });
+            </script>
+    </div>
+    </div>
+    <div class="main">
+        <h2>Welcome Back Student</h2>
+        <h6>Always stay updated in your student panel!</h6>
+        <img src="Edu123.png" alt="fin">
+
+    </div>
+    <div class="main2">
+       <p>Finance</p>
+        <div id="one">
+            <p><i class="ri-money-rupee-circle-fill"></i><br></p>
+            <p id="text">Rs... <br>Total Payable</p>
+           
+        </div>
+        <div id="two">
+           <img src="money-41-512.png" alt="">
+           <p id="text2">Rs.... <br>Total Paid</p>
+        </div>
+        <div id="three">
+            <img src="audience.png" alt="">
+            <p id="text3">My Batch</p>
+        </div>
+    </div>
+    <div class="main3">
+        <p>Enrolled Courses</p>
+        <a href="#" style="color: #0e638b;">See all...</a>
+        <div id="c1">
+            <p id="tc1">Object Oriented <br>Programming</p>
+            <img id="imga" src="laptop.png" alt="">
+            <button>View </button>
+        </div>
+        <div id="c2">
+            <p id="tc2">Data Structure <br> using Java</p>
+            <img id="imgb" src="java.png" alt="">
+            <button>View</button>
+        </div>
+    </div>
+    <div class="instructor">
+        <p>Course Instructors</p>
+        <a href="#" style="color: #0e638b;">See all..</a>
+        <div id="T1"><img src="istock.jpg" alt=""></div>
+        <div id="T2"><img src="download.jpeg" alt=""></div>
+        <div id="T3"><img src="9811.jpg" alt=""></div>
+        <div id="T4"><img src="5f31.jpg" alt=""></div>
+    </div>
+    <div class="notice">
+        <p id="note">Daily Notice</p>
+        <a href="#" style="color: #0e638b;">See all...</a>
+        
+            <h5>Course Information:</h5>
+           <p id="para1"> Access detailed course information, including 
+            syllabi, schedules, and instructor details,
+             all in one centralized location.</p>
+            <a id="more" href="#" style="color: #0e638b;">See more..</a>
+                <h5 id="head2">Personalized Learning Paths:</h5>
+                <p id="para2">
+                Benefit from personalized learning
+                paths that guide you through your
+                coursework, ensuring a structured and
+                effective approach to your studies.</p>
+                <a id="more2" href="#" style="color: #0e638b;">See more..</a>
+    </div>
+    </div>
+</body>
+</html>
